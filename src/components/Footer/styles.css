@@ -1,0 +1,17 @@
+p{
+    font-size: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+.link{
+    color: #1d4c7c;
+    cursor: pointer;
+}
+
+h4{
+    font-weight: 700px;
+    font-size: 20px;
+    padding-left: 50px;
+}

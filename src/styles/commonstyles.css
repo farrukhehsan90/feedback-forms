@@ -1,0 +1,49 @@
+.main{
+    padding: 5rem;
+    background-color: #f2f2f2;
+    margin: 0px;
+}
+
+.paper{
+    background-color: #fff;
+    border-radius: 2px;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding-bottom: 50px;
+}
+
+.content{
+    margin: 50px;
+}
+
+.content p{
+    font-size: 18px;
+    color: gray;
+}
+.content h3{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: 300;
+}
+
+.inputArea{
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+.inputArea h2{
+    font-weight: 500;
+}
+
+.inputArea h2 span{
+    color: gray;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 360px) {
+    .main{
+        padding: 1rem;
+        margin: 0px;
+    }
+}

@@ -1,0 +1,81 @@
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+label {
+    display: block; 
+    padding: 5px; 
+    position: relative; 
+    padding-left: 92px;
+}
+
+label input {
+    display: none;
+}
+
+label span {
+    border: 1px solid gray; 
+    width: 95px; 
+    height: 60px;
+    position: absolute; 
+    overflow: hidden; 
+    line-height: 1;
+    text-align: center; 
+    font-size: 10pt; left: 0; 
+    top: 50%; margin-top: -7.5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+input:checked + span {
+    background: #ccf; 
+    border-color: #ccf;
+}
+
+.bottomTxtContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1199px) {
+    label {
+        padding-left: 50px;
+    }
+    label span {
+        width: 50px; 
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 908px) {
+    label {
+        padding-left: 30px;
+    }
+    label span {
+        width: 30px; 
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 657px) {
+    label {
+        padding-left: 20px;
+    }
+    label span {
+        width: 20px; 
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    label {
+        padding-left: 15px;
+    }
+    label span {
+        width: 15px; 
+        height: 15px;
+    }
+}

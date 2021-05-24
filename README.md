@@ -2,4 +2,4 @@
 
 Run Commands:
 - yarn install
-- npm staty
+- npm start
